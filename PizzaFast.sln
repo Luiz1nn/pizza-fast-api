@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaFast.Domain", "PizzaFa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaFast.Infra", "PizzaFast.Infra\PizzaFast.Infra.csproj", "{45AA8B11-6DFE-431D-9566-EF75ECC7FE97}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaFast.Shared", "PizzaFast.Shared\PizzaFast.Shared.csproj", "{599D3E04-C1A9-45E8-887F-AC86A26A306A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{45AA8B11-6DFE-431D-9566-EF75ECC7FE97}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{45AA8B11-6DFE-431D-9566-EF75ECC7FE97}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{45AA8B11-6DFE-431D-9566-EF75ECC7FE97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{599D3E04-C1A9-45E8-887F-AC86A26A306A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{599D3E04-C1A9-45E8-887F-AC86A26A306A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{599D3E04-C1A9-45E8-887F-AC86A26A306A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{599D3E04-C1A9-45E8-887F-AC86A26A306A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
