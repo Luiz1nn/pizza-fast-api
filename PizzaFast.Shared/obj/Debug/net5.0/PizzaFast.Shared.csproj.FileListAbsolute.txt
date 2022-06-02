@@ -1,0 +1,5 @@
+D:\Desenvolvimento\projetos - dotnet 5\PizzaFast\PizzaFast.Shared\obj\Debug\net5.0\PizzaFast.Shared.csproj.AssemblyReference.cache
+D:\Desenvolvimento\projetos - dotnet 5\PizzaFast\PizzaFast.Shared\obj\Debug\net5.0\PizzaFast.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\Desenvolvimento\projetos - dotnet 5\PizzaFast\PizzaFast.Shared\obj\Debug\net5.0\PizzaFast.Shared.AssemblyInfoInputs.cache
+D:\Desenvolvimento\projetos - dotnet 5\PizzaFast\PizzaFast.Shared\obj\Debug\net5.0\PizzaFast.Shared.AssemblyInfo.cs
+D:\Desenvolvimento\projetos - dotnet 5\PizzaFast\PizzaFast.Shared\obj\Debug\net5.0\PizzaFast.Shared.csproj.CoreCompileInputs.cache
