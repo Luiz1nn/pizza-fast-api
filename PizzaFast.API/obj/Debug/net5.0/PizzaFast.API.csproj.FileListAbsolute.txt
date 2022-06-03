@@ -71,3 +71,5 @@ D:\Desenvolvimento\projetos - dotnet 5\PizzaFast\PizzaFast.API\obj\Debug\net5.0\
 D:\Desenvolvimento\projetos - dotnet 5\PizzaFast\PizzaFast.API\obj\Debug\net5.0\PizzaFast.API.genruntimeconfig.cache
 D:\Desenvolvimento\projetos - dotnet 5\PizzaFast\PizzaFast.API\bin\Debug\net5.0\MySqlConnector.dll
 D:\Desenvolvimento\projetos - dotnet 5\PizzaFast\PizzaFast.API\bin\Debug\net5.0\Pomelo.EntityFrameworkCore.MySql.dll
+D:\Desenvolvimento\projetos - dotnet 5\PizzaFast\PizzaFast.API\bin\Debug\net5.0\PizzaFast.Application.dll
+D:\Desenvolvimento\projetos - dotnet 5\PizzaFast\PizzaFast.API\bin\Debug\net5.0\PizzaFast.Application.pdb

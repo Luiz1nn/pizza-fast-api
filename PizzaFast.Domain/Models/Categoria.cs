@@ -10,11 +10,5 @@ namespace PizzaFast.Domain.Models
         [Required]
         public string Nome { get; set; }
         public ICollection<Produto> Produtos { get; set; }
-
-        public Categoria(int id, string nome)
-        {
-            Id = id;
-            Nome = nome;
-        }
     }
 }

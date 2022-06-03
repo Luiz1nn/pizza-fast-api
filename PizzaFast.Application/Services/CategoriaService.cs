@@ -10,12 +10,10 @@ namespace PizzaFast.Application.Services
     public class CategoriaService : ICategoriaService
     {
         private ICategoriaRepository _categoriaRepository;
-        private readonly IMapper _mapper;
 
-        public CategoriaService(ICategoriaRepository categoriaRepository, IMapper mapper)
+        public CategoriaService(ICategoriaRepository categoriaRepository)
         {
             _categoriaRepository = categoriaRepository;
-            _mapper = mapper;
         }
 
         public async Task<IEnumerable<Categoria>> GetCategorias()

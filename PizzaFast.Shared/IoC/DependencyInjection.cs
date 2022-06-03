@@ -1,7 +1,12 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using PizzaFast.Application.Interfaces;
+using PizzaFast.Application.Mappings;
+using PizzaFast.Application.Services;
+using PizzaFast.Domain.Interfaces;
 using PizzaFast.Infra.Context;
+using PizzaFast.Infra.Repositories;
 using System;
 
 namespace PizzaFast.Shared.IoC
@@ -16,6 +21,11 @@ namespace PizzaFast.Shared.IoC
 
             services.AddDbContext<AppDbContext>(options =>
                 options.UseMySql(configuration.GetConnectionString("DefaultConnection"), new MySqlServerVersion(new Version(8, 0, 11))));
+
+            services.AddScoped<ICategoriaRepository, CategoriaRepository>();
+            services.AddScoped<ICategoriaService, CategoriaService>();
+
+            services.AddAutoMapper(typeof(MappingProfile));
 
             return services;
         }

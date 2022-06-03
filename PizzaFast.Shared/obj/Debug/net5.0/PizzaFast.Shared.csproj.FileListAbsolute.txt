@@ -15,3 +15,5 @@ D:\Desenvolvimento\projetos - dotnet 5\PizzaFast\PizzaFast.Shared\obj\Debug\net5
 D:\Desenvolvimento\projetos - dotnet 5\PizzaFast\PizzaFast.Shared\obj\Debug\net5.0\PizzaFast.Shared.dll
 D:\Desenvolvimento\projetos - dotnet 5\PizzaFast\PizzaFast.Shared\obj\Debug\net5.0\ref\PizzaFast.Shared.dll
 D:\Desenvolvimento\projetos - dotnet 5\PizzaFast\PizzaFast.Shared\obj\Debug\net5.0\PizzaFast.Shared.pdb
+D:\Desenvolvimento\projetos - dotnet 5\PizzaFast\PizzaFast.Shared\bin\Debug\net5.0\PizzaFast.Application.dll
+D:\Desenvolvimento\projetos - dotnet 5\PizzaFast\PizzaFast.Shared\bin\Debug\net5.0\PizzaFast.Application.pdb

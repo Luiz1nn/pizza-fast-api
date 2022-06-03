@@ -28,7 +28,7 @@ namespace PizzaFast.API.Controllers
         [HttpGet("{id}", Name = "GetCategoria")]
         public async Task<ActionResult<Categoria>> Get(int id)
         {
-            var categoria = _categoriaService.GetById(id);
+            var categoria = await _categoriaService.GetById(id);
             if (categoria == null)
             {
                 return NotFound();
