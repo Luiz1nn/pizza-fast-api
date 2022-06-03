@@ -1,5 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
+using PizzaFast.Application.DTOs;
 using PizzaFast.Application.Interfaces;
 using PizzaFast.Domain.Models;
 using System.Collections.Generic;
@@ -26,7 +26,7 @@ namespace PizzaFast.API.Controllers
         }
 
         [HttpGet("{id}", Name = "GetCategoria")]
-        public async Task<ActionResult<Categoria>> Get(int id)
+        public async Task<ActionResult<CategoriaDTO>> Get(int id)
         {
             var categoria = await _categoriaService.GetById(id);
             if (categoria == null)
@@ -38,16 +38,16 @@ namespace PizzaFast.API.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult> Post([FromBody] Categoria categoria)
+        public async Task<ActionResult> Post([FromBody] CategoriaDTO categoriaDto)
         {
             if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);
             }
 
-            await _categoriaService.Add(categoria);
+            await _categoriaService.Add(categoriaDto);
 
-            return new CreatedAtRouteResult("GetCategoria", new { id = categoria.Id }, categoria);
+            return new CreatedAtRouteResult("GetCategoria", new { id = categoriaDto.Id }, categoriaDto);
         }
     }
 }
