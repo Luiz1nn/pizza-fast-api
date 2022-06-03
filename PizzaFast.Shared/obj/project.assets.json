@@ -1525,6 +1525,20 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "PizzaFast.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "AutoMapper": "8.1.1",
+          "PizzaFast.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/PizzaFast.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PizzaFast.Application.dll": {}
+        }
+      },
       "PizzaFast.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -5855,6 +5869,11 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
+    "PizzaFast.Application/1.0.0": {
+      "type": "project",
+      "path": "../PizzaFast.Application/PizzaFast.Application.csproj",
+      "msbuildProject": "../PizzaFast.Application/PizzaFast.Application.csproj"
+    },
     "PizzaFast.Domain/1.0.0": {
       "type": "project",
       "path": "../PizzaFast.Domain/PizzaFast.Domain.csproj",
@@ -5870,6 +5889,7 @@
     "net5.0": [
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 8.1.1",
       "Microsoft.Extensions.DependencyInjection.Abstractions >= 5.0.0",
+      "PizzaFast.Application >= 1.0.0",
       "PizzaFast.Domain >= 1.0.0",
       "PizzaFast.Infra >= 1.0.0"
     ]
@@ -5902,6 +5922,9 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
+            "D:\\Desenvolvimento\\projetos - dotnet 5\\PizzaFast\\PizzaFast.Application\\PizzaFast.Application.csproj": {
+              "projectPath": "D:\\Desenvolvimento\\projetos - dotnet 5\\PizzaFast\\PizzaFast.Application\\PizzaFast.Application.csproj"
+            },
             "D:\\Desenvolvimento\\projetos - dotnet 5\\PizzaFast\\PizzaFast.Domain\\PizzaFast.Domain.csproj": {
               "projectPath": "D:\\Desenvolvimento\\projetos - dotnet 5\\PizzaFast\\PizzaFast.Domain\\PizzaFast.Domain.csproj"
             },

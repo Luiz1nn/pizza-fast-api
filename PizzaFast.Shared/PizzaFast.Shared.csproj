@@ -10,6 +10,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\PizzaFast.Application\PizzaFast.Application.csproj" />
     <ProjectReference Include="..\PizzaFast.Domain\PizzaFast.Domain.csproj" />
     <ProjectReference Include="..\PizzaFast.Infra\PizzaFast.Infra.csproj" />
   </ItemGroup>

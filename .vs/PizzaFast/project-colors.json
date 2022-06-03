@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "ac326980-f5c9-444a-a601-8c1097c9ecd2": {
+      "ProjectGuid": "ac326980-f5c9-444a-a601-8c1097c9ecd2",
+      "DisplayName": "PizzaFast.Domain",
+      "ColorIndex": 0
+    },
+    "45aa8b11-6dfe-431d-9566-ef75ecc7fe97": {
+      "ProjectGuid": "45aa8b11-6dfe-431d-9566-ef75ecc7fe97",
+      "DisplayName": "PizzaFast.Infra",
+      "ColorIndex": 1
+    },
+    "599d3e04-c1a9-45e8-887f-ac86a26a306a": {
+      "ProjectGuid": "599d3e04-c1a9-45e8-887f-ac86a26a306a",
+      "DisplayName": "PizzaFast.Shared",
+      "ColorIndex": 2
+    },
+    "e9f8be33-fb50-4e88-9e02-9e30003b6222": {
+      "ProjectGuid": "e9f8be33-fb50-4e88-9e02-9e30003b6222",
+      "DisplayName": "PizzaFast.API",
+      "ColorIndex": 3
+    },
+    "d14a7e14-9014-401e-9104-e8a8e2f5112f": {
+      "ProjectGuid": "d14a7e14-9014-401e-9104-e8a8e2f5112f",
+      "DisplayName": "PizzaFast.Application",
+      "ColorIndex": 4
+    }
+  },
+  "NextColorIndex": 5
+}
