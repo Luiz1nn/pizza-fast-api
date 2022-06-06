@@ -9,6 +9,7 @@ namespace PizzaFast.Application.Mappings
         public MappingProfile()
         {
             CreateMap<Categoria, CategoriaDTO>().ReverseMap();
+            CreateMap<Produto, ProdutoDTO>().ReverseMap();
         }
     }
 }

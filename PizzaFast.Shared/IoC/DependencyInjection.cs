@@ -24,6 +24,8 @@ namespace PizzaFast.Shared.IoC
 
             services.AddScoped<ICategoriaRepository, CategoriaRepository>();
             services.AddScoped<ICategoriaService, CategoriaService>();
+            services.AddScoped<IProdutoRepository, ProdutoRepository>();
+            services.AddScoped<IProdutoService, ProdutoService>();
             
             services.AddAutoMapper(typeof(MappingProfile));
 
