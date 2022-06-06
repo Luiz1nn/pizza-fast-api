@@ -3,12 +3,12 @@ using System.ComponentModel.DataAnnotations;
 
 namespace PizzaFast.Domain.Models
 {
-    public class Categoria
+    public sealed class Categoria : Entity
     {
         [Required]
-        public int Id { get; set; }
-        [Required]
+        [StringLength(100, MinimumLength = 3, ErrorMessage = "Nome deve ter de 3 a 100 caracteres")]
         public string Nome { get; set; }
         public ICollection<Produto> Produtos { get; set; }
+
     }
 }

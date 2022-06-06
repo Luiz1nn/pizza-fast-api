@@ -23,7 +23,7 @@ namespace PizzaFast.Infra.Repositories
             return await _context.Categorias.ToListAsync();
         }
 
-        public async Task<Categoria> GetByIdAsync(int id)
+        public async Task<Categoria> GetByIdAsync(int? id)
         {
             return await _context.Categorias.FindAsync(id);
         }

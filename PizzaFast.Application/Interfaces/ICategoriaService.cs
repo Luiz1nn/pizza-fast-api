@@ -8,7 +8,7 @@ namespace PizzaFast.Application.Interfaces
     public interface ICategoriaService
     {
         Task<IEnumerable<Categoria>> GetCategorias();
-        Task<CategoriaDTO> GetById(int id);
+        Task<CategoriaDTO> GetById(int? id);
         Task Add(CategoriaDTO categoriaDto);
         Task Update(Categoria categoria);
         Task Remove(int id);

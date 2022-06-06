@@ -25,7 +25,7 @@ namespace PizzaFast.Application.Services
             return await _categoriaRepository.GetCategoriasAsync();
         }
 
-        public async Task<CategoriaDTO> GetById(int id)
+        public async Task<CategoriaDTO> GetById(int? id)
         {
             var categoria = await _categoriaRepository.GetByIdAsync(id);
             return _mapper.Map<CategoriaDTO>(categoria);
