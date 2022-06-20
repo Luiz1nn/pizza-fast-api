@@ -5858,35 +5858,32 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\NSYS-CDS-0101\\.nuget\\packages\\": {}
+    "/home/usuario/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Desenvolvimento\\projetos - dotnet 5\\PizzaFast\\PizzaFast.API\\PizzaFast.API.csproj",
+      "projectUniqueName": "/home/usuario/Documentos/DESENVOLVIMENTO/pizza-fast-api/PizzaFast.API/PizzaFast.API.csproj",
       "projectName": "PizzaFast.API",
-      "projectPath": "D:\\Desenvolvimento\\projetos - dotnet 5\\PizzaFast\\PizzaFast.API\\PizzaFast.API.csproj",
-      "packagesPath": "C:\\Users\\NSYS-CDS-0101\\.nuget\\packages\\",
-      "outputPath": "D:\\Desenvolvimento\\projetos - dotnet 5\\PizzaFast\\PizzaFast.API\\obj\\",
+      "projectPath": "/home/usuario/Documentos/DESENVOLVIMENTO/pizza-fast-api/PizzaFast.API/PizzaFast.API.csproj",
+      "packagesPath": "/home/usuario/.nuget/packages/",
+      "outputPath": "/home/usuario/Documentos/DESENVOLVIMENTO/pizza-fast-api/PizzaFast.API/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\NSYS-CDS-0101\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/home/usuario/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "http://192.168.0.2:3030/nuget": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\Desenvolvimento\\projetos - dotnet 5\\PizzaFast\\PizzaFast.Shared\\PizzaFast.Shared.csproj": {
-              "projectPath": "D:\\Desenvolvimento\\projetos - dotnet 5\\PizzaFast\\PizzaFast.Shared\\PizzaFast.Shared.csproj"
+            "/home/usuario/Documentos/DESENVOLVIMENTO/pizza-fast-api/PizzaFast.Shared/PizzaFast.Shared.csproj": {
+              "projectPath": "/home/usuario/Documentos/DESENVOLVIMENTO/pizza-fast-api/PizzaFast.Shared/PizzaFast.Shared.csproj"
             }
           }
         }
@@ -5934,7 +5931,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.301/RuntimeIdentifierGraph.json"
       }
     }
   }

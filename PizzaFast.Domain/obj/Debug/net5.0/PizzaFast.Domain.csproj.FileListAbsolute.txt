@@ -1,12 +1,24 @@
-D:\Desenvolvimento\projetos - dotnet 5\PizzaFast\PizzaFast.Domain\bin\Debug\net5.0\PizzaFast.Domain.deps.json
-D:\Desenvolvimento\projetos - dotnet 5\PizzaFast\PizzaFast.Domain\bin\Debug\net5.0\PizzaFast.Domain.dll
-D:\Desenvolvimento\projetos - dotnet 5\PizzaFast\PizzaFast.Domain\bin\Debug\net5.0\ref\PizzaFast.Domain.dll
-D:\Desenvolvimento\projetos - dotnet 5\PizzaFast\PizzaFast.Domain\bin\Debug\net5.0\PizzaFast.Domain.pdb
-D:\Desenvolvimento\projetos - dotnet 5\PizzaFast\PizzaFast.Domain\obj\Debug\net5.0\PizzaFast.Domain.csproj.AssemblyReference.cache
-D:\Desenvolvimento\projetos - dotnet 5\PizzaFast\PizzaFast.Domain\obj\Debug\net5.0\PizzaFast.Domain.GeneratedMSBuildEditorConfig.editorconfig
-D:\Desenvolvimento\projetos - dotnet 5\PizzaFast\PizzaFast.Domain\obj\Debug\net5.0\PizzaFast.Domain.AssemblyInfoInputs.cache
-D:\Desenvolvimento\projetos - dotnet 5\PizzaFast\PizzaFast.Domain\obj\Debug\net5.0\PizzaFast.Domain.AssemblyInfo.cs
-D:\Desenvolvimento\projetos - dotnet 5\PizzaFast\PizzaFast.Domain\obj\Debug\net5.0\PizzaFast.Domain.csproj.CoreCompileInputs.cache
-D:\Desenvolvimento\projetos - dotnet 5\PizzaFast\PizzaFast.Domain\obj\Debug\net5.0\PizzaFast.Domain.dll
-D:\Desenvolvimento\projetos - dotnet 5\PizzaFast\PizzaFast.Domain\obj\Debug\net5.0\ref\PizzaFast.Domain.dll
-D:\Desenvolvimento\projetos - dotnet 5\PizzaFast\PizzaFast.Domain\obj\Debug\net5.0\PizzaFast.Domain.pdb
+D:/Desenvolvimento/projetos - dotnet 5/PizzaFast/PizzaFast.Domain/bin/Debug/net5.0/PizzaFast.Domain.deps.json
+D:/Desenvolvimento/projetos - dotnet 5/PizzaFast/PizzaFast.Domain/bin/Debug/net5.0/PizzaFast.Domain.dll
+D:/Desenvolvimento/projetos - dotnet 5/PizzaFast/PizzaFast.Domain/bin/Debug/net5.0/ref/PizzaFast.Domain.dll
+D:/Desenvolvimento/projetos - dotnet 5/PizzaFast/PizzaFast.Domain/bin/Debug/net5.0/PizzaFast.Domain.pdb
+D:/Desenvolvimento/projetos - dotnet 5/PizzaFast/PizzaFast.Domain/obj/Debug/net5.0/PizzaFast.Domain.csproj.AssemblyReference.cache
+D:/Desenvolvimento/projetos - dotnet 5/PizzaFast/PizzaFast.Domain/obj/Debug/net5.0/PizzaFast.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:/Desenvolvimento/projetos - dotnet 5/PizzaFast/PizzaFast.Domain/obj/Debug/net5.0/PizzaFast.Domain.AssemblyInfoInputs.cache
+D:/Desenvolvimento/projetos - dotnet 5/PizzaFast/PizzaFast.Domain/obj/Debug/net5.0/PizzaFast.Domain.AssemblyInfo.cs
+D:/Desenvolvimento/projetos - dotnet 5/PizzaFast/PizzaFast.Domain/obj/Debug/net5.0/PizzaFast.Domain.csproj.CoreCompileInputs.cache
+D:/Desenvolvimento/projetos - dotnet 5/PizzaFast/PizzaFast.Domain/obj/Debug/net5.0/PizzaFast.Domain.dll
+D:/Desenvolvimento/projetos - dotnet 5/PizzaFast/PizzaFast.Domain/obj/Debug/net5.0/ref/PizzaFast.Domain.dll
+D:/Desenvolvimento/projetos - dotnet 5/PizzaFast/PizzaFast.Domain/obj/Debug/net5.0/PizzaFast.Domain.pdb
+/home/usuario/Documentos/DESENVOLVIMENTO/pizza-fast-api/PizzaFast.Domain/bin/Debug/net5.0/PizzaFast.Domain.deps.json
+/home/usuario/Documentos/DESENVOLVIMENTO/pizza-fast-api/PizzaFast.Domain/bin/Debug/net5.0/PizzaFast.Domain.dll
+/home/usuario/Documentos/DESENVOLVIMENTO/pizza-fast-api/PizzaFast.Domain/bin/Debug/net5.0/PizzaFast.Domain.pdb
+/home/usuario/Documentos/DESENVOLVIMENTO/pizza-fast-api/PizzaFast.Domain/obj/Debug/net5.0/PizzaFast.Domain.csproj.AssemblyReference.cache
+/home/usuario/Documentos/DESENVOLVIMENTO/pizza-fast-api/PizzaFast.Domain/obj/Debug/net5.0/PizzaFast.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/usuario/Documentos/DESENVOLVIMENTO/pizza-fast-api/PizzaFast.Domain/obj/Debug/net5.0/PizzaFast.Domain.AssemblyInfoInputs.cache
+/home/usuario/Documentos/DESENVOLVIMENTO/pizza-fast-api/PizzaFast.Domain/obj/Debug/net5.0/PizzaFast.Domain.AssemblyInfo.cs
+/home/usuario/Documentos/DESENVOLVIMENTO/pizza-fast-api/PizzaFast.Domain/obj/Debug/net5.0/PizzaFast.Domain.csproj.CoreCompileInputs.cache
+/home/usuario/Documentos/DESENVOLVIMENTO/pizza-fast-api/PizzaFast.Domain/obj/Debug/net5.0/PizzaFast.Domain.dll
+/home/usuario/Documentos/DESENVOLVIMENTO/pizza-fast-api/PizzaFast.Domain/obj/Debug/net5.0/refint/PizzaFast.Domain.dll
+/home/usuario/Documentos/DESENVOLVIMENTO/pizza-fast-api/PizzaFast.Domain/obj/Debug/net5.0/PizzaFast.Domain.pdb
+/home/usuario/Documentos/DESENVOLVIMENTO/pizza-fast-api/PizzaFast.Domain/obj/Debug/net5.0/ref/PizzaFast.Domain.dll

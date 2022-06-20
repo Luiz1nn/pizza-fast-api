@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EH5LzeHqzFmFSSfCHEXzKOlbbMkk2l3Rh/XJs/hNq8J2/C9fHp4Cq0XKyDV1w0jFX1aHf5O/0sYh3RFUnZJWHQ==",
+  "dgSpecHash": "wIkiTqy+okHqrKdUwH05RiABIEYGMAVHvsamEw7e9134A6vXl4DYbAPE/Kfqicdrot9TSVa/d9dFtrYKd03GnQ==",
   "success": true,
-  "projectFilePath": "D:\\Desenvolvimento\\projetos - dotnet 5\\PizzaFast\\PizzaFast.Domain\\PizzaFast.Domain.csproj",
+  "projectFilePath": "/home/usuario/Documentos/DESENVOLVIMENTO/pizza-fast-api/PizzaFast.Domain/PizzaFast.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

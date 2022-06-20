@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "dmT+BT3c6EkfneA7GCbalOMAuEyQag7VJcZ2FqhPsyReVWgrpio9VNXNTkaI3ra9CtGWjZgOdvjdJ2RSB5nW0Q==",
+  "dgSpecHash": "97YcI7zXYQLdHql6JqXohkCrUkG5vo9dHRx6EB5E7OZ+XtOLgNOZ/IoOG6tMb32ogQmTc/jIMcI2bjuR/XgQQA==",
   "success": true,
-  "projectFilePath": "D:\\Desenvolvimento\\projetos - dotnet 5\\PizzaFast\\PizzaFast.Application\\PizzaFast.Application.csproj",
+  "projectFilePath": "/home/usuario/Documentos/DESENVOLVIMENTO/pizza-fast-api/PizzaFast.Application/PizzaFast.Application.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\NSYS-CDS-0101\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
-    "C:\\Users\\NSYS-CDS-0101\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
-    "C:\\Users\\NSYS-CDS-0101\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512"
+    "/home/usuario/.nuget/packages/automapper/10.1.1/automapper.10.1.1.nupkg.sha512",
+    "/home/usuario/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
+    "/home/usuario/.nuget/packages/system.reflection.emit/4.7.0/system.reflection.emit.4.7.0.nupkg.sha512"
   ],
   "logs": []
 }

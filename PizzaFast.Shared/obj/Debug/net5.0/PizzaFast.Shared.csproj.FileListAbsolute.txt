@@ -1,19 +1,38 @@
-D:\Desenvolvimento\projetos - dotnet 5\PizzaFast\PizzaFast.Shared\obj\Debug\net5.0\PizzaFast.Shared.csproj.AssemblyReference.cache
-D:\Desenvolvimento\projetos - dotnet 5\PizzaFast\PizzaFast.Shared\obj\Debug\net5.0\PizzaFast.Shared.GeneratedMSBuildEditorConfig.editorconfig
-D:\Desenvolvimento\projetos - dotnet 5\PizzaFast\PizzaFast.Shared\obj\Debug\net5.0\PizzaFast.Shared.AssemblyInfoInputs.cache
-D:\Desenvolvimento\projetos - dotnet 5\PizzaFast\PizzaFast.Shared\obj\Debug\net5.0\PizzaFast.Shared.AssemblyInfo.cs
-D:\Desenvolvimento\projetos - dotnet 5\PizzaFast\PizzaFast.Shared\obj\Debug\net5.0\PizzaFast.Shared.csproj.CoreCompileInputs.cache
-D:\Desenvolvimento\projetos - dotnet 5\PizzaFast\PizzaFast.Shared\bin\Debug\net5.0\PizzaFast.Shared.deps.json
-D:\Desenvolvimento\projetos - dotnet 5\PizzaFast\PizzaFast.Shared\bin\Debug\net5.0\PizzaFast.Shared.dll
-D:\Desenvolvimento\projetos - dotnet 5\PizzaFast\PizzaFast.Shared\bin\Debug\net5.0\ref\PizzaFast.Shared.dll
-D:\Desenvolvimento\projetos - dotnet 5\PizzaFast\PizzaFast.Shared\bin\Debug\net5.0\PizzaFast.Shared.pdb
-D:\Desenvolvimento\projetos - dotnet 5\PizzaFast\PizzaFast.Shared\bin\Debug\net5.0\PizzaFast.Domain.dll
-D:\Desenvolvimento\projetos - dotnet 5\PizzaFast\PizzaFast.Shared\bin\Debug\net5.0\PizzaFast.Infra.dll
-D:\Desenvolvimento\projetos - dotnet 5\PizzaFast\PizzaFast.Shared\bin\Debug\net5.0\PizzaFast.Domain.pdb
-D:\Desenvolvimento\projetos - dotnet 5\PizzaFast\PizzaFast.Shared\bin\Debug\net5.0\PizzaFast.Infra.pdb
-D:\Desenvolvimento\projetos - dotnet 5\PizzaFast\PizzaFast.Shared\obj\Debug\net5.0\PizzaFast.Shared.csproj.CopyComplete
-D:\Desenvolvimento\projetos - dotnet 5\PizzaFast\PizzaFast.Shared\obj\Debug\net5.0\PizzaFast.Shared.dll
-D:\Desenvolvimento\projetos - dotnet 5\PizzaFast\PizzaFast.Shared\obj\Debug\net5.0\ref\PizzaFast.Shared.dll
-D:\Desenvolvimento\projetos - dotnet 5\PizzaFast\PizzaFast.Shared\obj\Debug\net5.0\PizzaFast.Shared.pdb
-D:\Desenvolvimento\projetos - dotnet 5\PizzaFast\PizzaFast.Shared\bin\Debug\net5.0\PizzaFast.Application.dll
-D:\Desenvolvimento\projetos - dotnet 5\PizzaFast\PizzaFast.Shared\bin\Debug\net5.0\PizzaFast.Application.pdb
+D:/Desenvolvimento/projetos - dotnet 5/PizzaFast/PizzaFast.Shared/obj/Debug/net5.0/PizzaFast.Shared.csproj.AssemblyReference.cache
+D:/Desenvolvimento/projetos - dotnet 5/PizzaFast/PizzaFast.Shared/obj/Debug/net5.0/PizzaFast.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:/Desenvolvimento/projetos - dotnet 5/PizzaFast/PizzaFast.Shared/obj/Debug/net5.0/PizzaFast.Shared.AssemblyInfoInputs.cache
+D:/Desenvolvimento/projetos - dotnet 5/PizzaFast/PizzaFast.Shared/obj/Debug/net5.0/PizzaFast.Shared.AssemblyInfo.cs
+D:/Desenvolvimento/projetos - dotnet 5/PizzaFast/PizzaFast.Shared/obj/Debug/net5.0/PizzaFast.Shared.csproj.CoreCompileInputs.cache
+D:/Desenvolvimento/projetos - dotnet 5/PizzaFast/PizzaFast.Shared/bin/Debug/net5.0/PizzaFast.Shared.deps.json
+D:/Desenvolvimento/projetos - dotnet 5/PizzaFast/PizzaFast.Shared/bin/Debug/net5.0/PizzaFast.Shared.dll
+D:/Desenvolvimento/projetos - dotnet 5/PizzaFast/PizzaFast.Shared/bin/Debug/net5.0/ref/PizzaFast.Shared.dll
+D:/Desenvolvimento/projetos - dotnet 5/PizzaFast/PizzaFast.Shared/bin/Debug/net5.0/PizzaFast.Shared.pdb
+D:/Desenvolvimento/projetos - dotnet 5/PizzaFast/PizzaFast.Shared/bin/Debug/net5.0/PizzaFast.Domain.dll
+D:/Desenvolvimento/projetos - dotnet 5/PizzaFast/PizzaFast.Shared/bin/Debug/net5.0/PizzaFast.Infra.dll
+D:/Desenvolvimento/projetos - dotnet 5/PizzaFast/PizzaFast.Shared/bin/Debug/net5.0/PizzaFast.Domain.pdb
+D:/Desenvolvimento/projetos - dotnet 5/PizzaFast/PizzaFast.Shared/bin/Debug/net5.0/PizzaFast.Infra.pdb
+D:/Desenvolvimento/projetos - dotnet 5/PizzaFast/PizzaFast.Shared/obj/Debug/net5.0/PizzaFast.Shared.csproj.CopyComplete
+D:/Desenvolvimento/projetos - dotnet 5/PizzaFast/PizzaFast.Shared/obj/Debug/net5.0/PizzaFast.Shared.dll
+D:/Desenvolvimento/projetos - dotnet 5/PizzaFast/PizzaFast.Shared/obj/Debug/net5.0/ref/PizzaFast.Shared.dll
+D:/Desenvolvimento/projetos - dotnet 5/PizzaFast/PizzaFast.Shared/obj/Debug/net5.0/PizzaFast.Shared.pdb
+D:/Desenvolvimento/projetos - dotnet 5/PizzaFast/PizzaFast.Shared/bin/Debug/net5.0/PizzaFast.Application.dll
+D:/Desenvolvimento/projetos - dotnet 5/PizzaFast/PizzaFast.Shared/bin/Debug/net5.0/PizzaFast.Application.pdb
+/home/usuario/Documentos/DESENVOLVIMENTO/pizza-fast-api/PizzaFast.Shared/bin/Debug/net5.0/PizzaFast.Shared.deps.json
+/home/usuario/Documentos/DESENVOLVIMENTO/pizza-fast-api/PizzaFast.Shared/bin/Debug/net5.0/PizzaFast.Shared.dll
+/home/usuario/Documentos/DESENVOLVIMENTO/pizza-fast-api/PizzaFast.Shared/bin/Debug/net5.0/PizzaFast.Shared.pdb
+/home/usuario/Documentos/DESENVOLVIMENTO/pizza-fast-api/PizzaFast.Shared/bin/Debug/net5.0/PizzaFast.Application.dll
+/home/usuario/Documentos/DESENVOLVIMENTO/pizza-fast-api/PizzaFast.Shared/bin/Debug/net5.0/PizzaFast.Domain.dll
+/home/usuario/Documentos/DESENVOLVIMENTO/pizza-fast-api/PizzaFast.Shared/bin/Debug/net5.0/PizzaFast.Infra.dll
+/home/usuario/Documentos/DESENVOLVIMENTO/pizza-fast-api/PizzaFast.Shared/bin/Debug/net5.0/PizzaFast.Application.pdb
+/home/usuario/Documentos/DESENVOLVIMENTO/pizza-fast-api/PizzaFast.Shared/bin/Debug/net5.0/PizzaFast.Domain.pdb
+/home/usuario/Documentos/DESENVOLVIMENTO/pizza-fast-api/PizzaFast.Shared/bin/Debug/net5.0/PizzaFast.Infra.pdb
+/home/usuario/Documentos/DESENVOLVIMENTO/pizza-fast-api/PizzaFast.Shared/obj/Debug/net5.0/PizzaFast.Shared.csproj.AssemblyReference.cache
+/home/usuario/Documentos/DESENVOLVIMENTO/pizza-fast-api/PizzaFast.Shared/obj/Debug/net5.0/PizzaFast.Shared.GeneratedMSBuildEditorConfig.editorconfig
+/home/usuario/Documentos/DESENVOLVIMENTO/pizza-fast-api/PizzaFast.Shared/obj/Debug/net5.0/PizzaFast.Shared.AssemblyInfoInputs.cache
+/home/usuario/Documentos/DESENVOLVIMENTO/pizza-fast-api/PizzaFast.Shared/obj/Debug/net5.0/PizzaFast.Shared.AssemblyInfo.cs
+/home/usuario/Documentos/DESENVOLVIMENTO/pizza-fast-api/PizzaFast.Shared/obj/Debug/net5.0/PizzaFast.Shared.csproj.CoreCompileInputs.cache
+/home/usuario/Documentos/DESENVOLVIMENTO/pizza-fast-api/PizzaFast.Shared/obj/Debug/net5.0/PizzaFast.Shared.csproj.CopyComplete
+/home/usuario/Documentos/DESENVOLVIMENTO/pizza-fast-api/PizzaFast.Shared/obj/Debug/net5.0/PizzaFast.Shared.dll
+/home/usuario/Documentos/DESENVOLVIMENTO/pizza-fast-api/PizzaFast.Shared/obj/Debug/net5.0/refint/PizzaFast.Shared.dll
+/home/usuario/Documentos/DESENVOLVIMENTO/pizza-fast-api/PizzaFast.Shared/obj/Debug/net5.0/PizzaFast.Shared.pdb
+/home/usuario/Documentos/DESENVOLVIMENTO/pizza-fast-api/PizzaFast.Shared/obj/Debug/net5.0/ref/PizzaFast.Shared.dll
