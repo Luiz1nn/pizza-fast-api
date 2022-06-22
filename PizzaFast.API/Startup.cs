@@ -20,6 +20,15 @@ namespace PizzaFast.API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddCors(options =>
+            {
+                options.AddDefaultPolicy(builder => {
+                        builder.AllowAnyOrigin();
+                        builder.AllowAnyHeader();
+                    });
+
+            });
+
             services.AddInfra(Configuration);
 
             services.AddControllers().AddNewtonsoftJson(options =>
@@ -47,6 +56,8 @@ namespace PizzaFast.API
             app.UseRouting();
 
             app.UseAuthorization();
+
+            app.UseCors();
 
             app.UseEndpoints(endpoints =>
             {

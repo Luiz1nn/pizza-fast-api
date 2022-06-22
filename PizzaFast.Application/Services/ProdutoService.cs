@@ -35,6 +35,12 @@ namespace PizzaFast.Application.Services
             return _mapper.Map<ProdutoDTO>(produto);
         }
 
+        public async Task<IEnumerable<ProdutoDTO>> GetProdutosByCategoriaId(int categoriaId)
+        {
+            var produtos = await _produtoRepository.GetProdutosByCategoriaIdAsync(categoriaId);
+            return _mapper.Map<IEnumerable<ProdutoDTO>>(produtos);
+        }
+
         public async Task Add(ProdutoDTO produtoDto)
         {
             var produto = _mapper.Map<Produto>(produtoDto);

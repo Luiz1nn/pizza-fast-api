@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace PizzaFast.API.Controllers
 {
+    [Produces("application/json")]
     [Route("api/[controller]")]
     [ApiController]
     public class CategoriaController : ControllerBase

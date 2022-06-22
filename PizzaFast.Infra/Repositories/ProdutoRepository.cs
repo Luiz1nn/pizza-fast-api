@@ -3,6 +3,7 @@ using PizzaFast.Domain.Interfaces;
 using PizzaFast.Domain.Models;
 using PizzaFast.Infra.Context;
 using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 
 namespace PizzaFast.Infra.Repositories
@@ -24,6 +25,13 @@ namespace PizzaFast.Infra.Repositories
         {
             return await _context.Produtos.Include(c => c.Categoria)
                 .SingleOrDefaultAsync(p => p.Id == id);
+        }
+
+        public async Task<IEnumerable<Produto>> GetProdutosByCategoriaIdAsync(int categoriaId)
+        {
+            List<Produto> produtos = await _context.Produtos.AsNoTracking().Where(p => p.CategoriaId == categoriaId).ToListAsync();
+            if (produtos == null) return null;
+            return produtos;
         }
 
         public async Task<Produto> CreateAsync(Produto produto)

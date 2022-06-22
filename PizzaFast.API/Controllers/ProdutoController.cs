@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace PizzaFast.API.Controllers
 {
+    [Produces("application/json")]
     [Route("api/[controller]")]
     [ApiController]
     public class ProdutoController : ControllerBase
@@ -28,6 +29,18 @@ namespace PizzaFast.API.Controllers
         public async Task<ActionResult<ProdutoDTO>> Get(int id)
         {
             var produto = await _produtoService.GetById(id);
+            if (produto == null)
+            {
+                return NotFound();
+            }
+
+            return Ok(produto);
+        }
+
+        [HttpGet("categoria/{categoriaId}")]
+        public async Task<ActionResult<IEnumerable<ProdutoDTO>>> GetProdutoByIdCategoria(int categoriaId)
+        {
+            var produto = await _produtoService.GetProdutosByCategoriaId(categoriaId);
             if (produto == null)
             {
                 return NotFound();

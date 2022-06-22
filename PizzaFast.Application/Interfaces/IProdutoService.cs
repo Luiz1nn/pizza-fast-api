@@ -9,6 +9,7 @@ namespace PizzaFast.Application.Interfaces
     {
         Task<IEnumerable<ProdutoDTO>> GetProdutos();
         Task<ProdutoDTO> GetById(int? id);
+        Task<IEnumerable<ProdutoDTO>> GetProdutosByCategoriaId(int categoriaId);
         Task Add(ProdutoDTO produtoDto);
         Task Update(ProdutoDTO produto);
         Task Remove(int id);
