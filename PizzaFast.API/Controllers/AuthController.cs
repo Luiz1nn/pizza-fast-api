@@ -49,6 +49,7 @@ namespace PizzaFast.API.Controllers
             return Ok(GenerateToken(model));
         }
 
+        [HttpPost("login")]
         public async Task<ActionResult> Login([FromBody] UserDTO user)
         {
             var result = await _signInManager.PasswordSignInAsync(user.Email, user.Password, isPersistent: false, lockoutOnFailure: false);

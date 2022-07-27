@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using PizzaFast.Application.DTOs;
 using PizzaFast.Application.Interfaces;
 using System;
@@ -8,6 +10,7 @@ using System.Threading.Tasks;
 
 namespace PizzaFast.API.Controllers
 {
+    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
     [Produces("application/json")]
     [Route("api/produtos")]
     [ApiController]

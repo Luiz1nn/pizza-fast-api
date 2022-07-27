@@ -153,3 +153,4 @@ D:\Desenvolvimento\projetos - dotnet 5\PizzaFast\PizzaFast.API\bin\Debug\net5.0\
 D:\Desenvolvimento\projetos - dotnet 5\PizzaFast\PizzaFast.API\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 D:\Desenvolvimento\projetos - dotnet 5\PizzaFast\PizzaFast.API\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
 D:\Desenvolvimento\projetos - dotnet 5\PizzaFast\PizzaFast.API\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
+D:\Desenvolvimento\projetos - dotnet 5\PizzaFast\PizzaFast.API\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

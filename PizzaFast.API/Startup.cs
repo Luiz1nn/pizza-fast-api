@@ -7,6 +7,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using PizzaFast.Shared.IoC;
+using System;
 using System.Text;
 
 namespace PizzaFast.API
@@ -20,7 +21,6 @@ namespace PizzaFast.API
             var builder = new ConfigurationBuilder()
                 .SetBasePath(hostEnvironment.ContentRootPath)
                 .AddJsonFile("appsettings.json", true, true)
-                .AddJsonFile($"appsettings.{hostEnvironment.EnvironmentName}.json", true, true)
                 .AddEnvironmentVariables();
 
             Configuration = builder.Build();
@@ -57,7 +57,24 @@ namespace PizzaFast.API
 
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "PizzaFast.API", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo
+                {
+                    Title = "ApiCatalogo",
+                    Version = "v1",
+                    Description = "Catálogo de Produtos e Categorias",
+                    TermsOfService = new Uri("https://github.com/Luiz1nn"),
+                    Contact = new OpenApiContact
+                    {
+                        Name = "Luis",
+                        Email = "luisfernandobr2003@gmail.com",
+                        Url = new Uri("https://github.com/Luiz1nn"),
+                    },
+                    License = new OpenApiLicense
+                    {
+                        Name = "Usar sobre LICX",
+                        Url = new Uri("https://github.com/Luiz1nn")
+                    }
+                });
 
                 c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme()
                 {
