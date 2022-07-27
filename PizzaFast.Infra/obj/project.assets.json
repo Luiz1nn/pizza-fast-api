@@ -5882,7 +5882,8 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\NSYS-CDS-0101\\.nuget\\packages\\": {}
+    "C:\\Users\\NSYS-CDS-0101\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
@@ -5893,6 +5894,9 @@
       "packagesPath": "C:\\Users\\NSYS-CDS-0101\\.nuget\\packages\\",
       "outputPath": "D:\\Desenvolvimento\\projetos - dotnet 5\\PizzaFast\\PizzaFast.Infra\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
         "C:\\Users\\NSYS-CDS-0101\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"

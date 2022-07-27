@@ -1,13 +1,15 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using PizzaFast.Application.DTOs;
 using PizzaFast.Application.Interfaces;
+using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Threading.Tasks;
 
 namespace PizzaFast.API.Controllers
 {
     [Produces("application/json")]
-    [Route("api/[controller]")]
+    [Route("api/produtos")]
     [ApiController]
     public class ProdutoController : ControllerBase
     {
@@ -52,14 +54,63 @@ namespace PizzaFast.API.Controllers
         [HttpPost]
         public async Task<ActionResult> Post([FromBody] ProdutoDTO produtoDto)
         {
-            if (!ModelState.IsValid)
-            {
-                return BadRequest(ModelState);
-            }
+            if (!ModelState.IsValid) return BadRequest(ModelState);
+
+            var imageName = Guid.NewGuid() + "-" + produtoDto.Imagem;
+            if (!UploadArquivo(produtoDto.ImagemUpload, imageName)) return BadRequest(ModelState);
 
             await _produtoService.Add(produtoDto);
 
             return new CreatedAtRouteResult("GetProduto", new { id = produtoDto.Id }, produtoDto);
+        }
+
+        [HttpPut("{id}")]
+        public async Task<IActionResult> Atualizar(int id, [FromBody] ProdutoDTO produtoDto)
+        {
+            if (!ModelState.IsValid) return BadRequest(ModelState);
+            if (id != produtoDto.Id) return BadRequest();
+
+            var produtoAtualizacao = await _produtoService.GetById(id);
+
+            if (produtoDto.ImagemUpload != null)
+            {
+                var imagemNome = Guid.NewGuid() + "_" + produtoDto.Imagem;
+                if (!UploadArquivo(produtoDto.ImagemUpload, imagemNome))
+                {
+                    return BadRequest(ModelState);
+                }
+
+                produtoAtualizacao.Imagem = imagemNome;
+            }
+            else
+            {
+                return BadRequest();
+            }
+
+            await _produtoService.Update(produtoAtualizacao);
+
+            return Ok(produtoDto);
+        }
+
+        private bool UploadArquivo(string arquivo, string imgNome)
+        {
+            if (string.IsNullOrEmpty(arquivo))
+            {
+                return false;
+            }
+
+            var imageDataByteArray = Convert.FromBase64String(arquivo);
+
+            var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", imgNome);
+
+            if (System.IO.File.Exists(filePath))
+            {
+                return false;
+            }
+
+            System.IO.File.WriteAllBytes(filePath, imageDataByteArray);
+
+            return true;
         }
     }
 }

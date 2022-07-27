@@ -11,6 +11,7 @@ namespace PizzaFast.Domain.Models
         [Required]
         [MaxLength(200)]
         public string Descricao { get; set; }
+        public string Imagem { get; set; }
         [Required]
         [Column(TypeName = "decimal(10,2)")]
         public decimal Preco { get; set; }

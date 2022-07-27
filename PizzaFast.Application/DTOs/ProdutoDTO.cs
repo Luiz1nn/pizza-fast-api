@@ -15,6 +15,9 @@ namespace PizzaFast.Application.DTOs
         [Required(ErrorMessage = "A descrição é obrigatória")]
         [MaxLength(200)]
         public string Descricao { get; set; }
+        public string ImagemUpload { get; set; }
+
+        public string Imagem { get; set; }
 
         [Required(ErrorMessage = "Informe o preço")]
         [Column(TypeName = "decimal(10,2)")]
